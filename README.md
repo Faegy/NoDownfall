@@ -1,6 +1,11 @@
 # No Downfall
 V1.0 | Prevent all downfall.
 
+*No Downfall* is a plugin for [Sponge](https://www.spongepowered.org) created to prevent downfall (as rain or thunder) on an entire server.
+
+## Status
+[<img src="https://img.shields.io/github/downloads/faegy/nodownfall/total.svg?style=flat-square" alt="Downloads" width="122" height="20">](http://faegy.github.io/NoDownfall)[<img src="https://img.shields.io/github/issues/faegy/nodownfall.svg?style=flat-square" alt="Issues" width="90" height="20">](https://github.com/Faegy/NoDownfall/issues)
+
 ## Download
 Download [directly](https://github.com/Faegy/NoDownfall/releases/download/v1.0/NoDownfall-v1.0.jar) or check the [website](http://faegy.github.io/NoDownfall) for more choices.
 

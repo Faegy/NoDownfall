@@ -10,7 +10,7 @@ import org.spongepowered.api.world.weather.Weathers;
 
 import com.google.inject.Inject;
 
-@Plugin(id = "io.github.faegy.nodownfall", name = "No Downfall", version = "1.0", authors= "Faegy")
+@Plugin(id = "io.github.faegy.nodownfall", name = "No Downfall", version = "1.0", authors= "Faegy", url = "https://faegy.github.io/NoDownfall")
 public class plugin {
 	private Logger logger;
 
@@ -30,13 +30,13 @@ public class plugin {
 	
 	@Listener
 	public void onWeatherChange(ChangeWorldWeatherEvent event) {
-		if (event.getWeather() != Weathers.CLEAR) {
+		if (event.getOriginalWeather() != Weathers.CLEAR) {
 			getLogger().info("Detected an attempt of weather change!");
-			event.getTargetWorld().setWeather(Weathers.CLEAR);
-			if (event.getTargetWorld().getWeather() != Weathers.CLEAR) {
+			event.setWeather(Weathers.CLEAR);
+			if (event.getWeather() != Weathers.CLEAR) {
 				getLogger().warn("Couldn't enforce sunshine! Are you using another plugin to enforce rain?");
 			}
-			if (event.getTargetWorld().getWeather() == Weathers.CLEAR) {
+			if (event.getWeather() == Weathers.CLEAR) {
 				getLogger().info("We managed to enforce sunshine!");
 			}
 		}

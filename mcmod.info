@@ -1,0 +1,10 @@
+[{
+    "modid": "io.github.faegy.nodownfall",
+    "name": "No Downfall",
+    "version": "1.0",
+    "description": "Disable all downfall",
+    "authorList": [
+        "Faegy"
+    ],
+    "dependencies": []
+}]

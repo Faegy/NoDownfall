@@ -12,7 +12,7 @@ Just put the "No Downfall.jar" file in Sponge's mod folder an run your server. N
 No Downfall hasn't any kind of permission or command. All you need to do is set the weather to sunny with `/weather CLEAR` and the plugin will prevent downfall forever.
 
 ## Author
-[Faegy](https://github.com/Faegy)
+Coded with ♥ by [Faegy](https://github.com/Faegy)
 
 ## Idea
 This plugin was requested by [HLEEP](https://forums.spongepowered.org/users/hleep/) on [Sponge's Plugin Request Forum](https://forums.spongepowered.org/t/weather-plugin/13151).

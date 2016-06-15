@@ -2,7 +2,7 @@
 V1.0 | Prevent all downfall.
 
 ## Download
-[Check the "No Downfall" 's website to download the plugin/mod.](http://faegy.github.io/NoDownfall)
+[Check the "No Downfall" website to download the plugin/mod.](http://faegy.github.io/NoDownfall)
 
 ## Installation
 Just put the "No Downfall.jar" file in Sponge's mod folder an run your server. No configuration needed.

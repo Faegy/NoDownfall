@@ -27,9 +27,8 @@ repositories {
 }
 
 group = 'io.github.faegy.nodownfall'
-version = '1.0'
+version = '1.0.1'
 description = 'Disable all downfall'
-name = 'No Downfall'
 
 // In this section you declare the dependencies for your production and test code
 dependencies {

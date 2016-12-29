@@ -1,5 +1,5 @@
 # No Downfall
-V1.0.1 | Prevent all downfall.
+V1.1 | Prevent all downfall.
 
 *No Downfall* is a plugin for [Sponge](https://www.spongepowered.org) created to prevent downfall (as rain or thunder) on an entire server.
 

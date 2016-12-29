@@ -1,17 +1,23 @@
 [
     {
-        "modid": "io.github.faegy.nodownfall",
+        "modid": "no-downfall",
         "name": "No Downfall",
-        "version": "1.0.1",
-        "url": "https://faegy.github.io/NoDownfall",
+        "version": "1.1",
+        "description": "This plugin will prevent all downfall on the entire server. Use '/weather CLEAR' and the plugin will block any later change of state.",
         "authorList": [
             "Faegy"
+        ],
+        "dependencies": [
+            "spongeapi@6.0.0-SNAPSHOT"
+        ],
+        "requiredMods": [
+            "spongeapi@6.0.0-SNAPSHOT"
         ]
     },
     {
         "modid": "nodownfall",
         "name": "NoDownfall",
-        "version": "1.0.1",
+        "version": "1.1",
         "description": "Disable all downfall"
     }
 ]

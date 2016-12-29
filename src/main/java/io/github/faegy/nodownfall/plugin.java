@@ -10,7 +10,7 @@ import org.spongepowered.api.world.weather.Weathers;
 
 import com.google.inject.Inject;
 
-@Plugin(id = "io.github.faegy.nodownfall", name = "No Downfall", version = "1.0.1", authors= "Faegy", url = "https://faegy.github.io/NoDownfall")
+@Plugin(id = "no-downfall", name = "No Downfall", version = "1.1", authors= "Faegy", description="This plugin will prevent all downfall on the entire server. Use '/weather CLEAR' and the plugin will block any later change of state.")
 public class plugin {
 	private Logger logger;
 

@@ -8,7 +8,7 @@
  */
 
 plugins {
-    id 'org.spongepowered.plugin' version '0.6'
+    id 'org.spongepowered.plugin' version '0.7'
 }
 
 // Apply the java plugin to add support for Java
@@ -26,15 +26,15 @@ repositories {
     }
 }
 
-group = 'io.github.faegy.nodownfall'
-version = '1.0.1'
+group = 'io.github.feagy.nodownfall'
+version = '1.1'
 description = 'Disable all downfall'
 
 // In this section you declare the dependencies for your production and test code
 dependencies {
     // The production code uses the SLF4J logging API at compile time
     compile 'org.slf4j:slf4j-api:1.7.13'
-	compile 'org.spongepowered:spongeapi:4.1.0'
+	compile 'org.spongepowered:spongeapi:6.0.0-20161223.142907-29'
     // Declare the dependency for your favourite test framework you want to use in your tests.
     // TestNG is also supported by the Gradle Test task. Just change the
     // testCompile dependency to testCompile 'org.testng:testng:6.8.1' and add
